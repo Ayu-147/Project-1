@@ -11,7 +11,6 @@ html {
     width: 10px;
     height: 40px;
     background-color: #fff;
-    /* border: solid 1px black; */
     position: fixed;
     bottom: 30px;
     right: 30px;
@@ -75,7 +74,7 @@ html {
 }
 
 .top-area-mid-left {
-    width: 390px;
+    width: 400px;
     height: 40px;
     float: left;
     margin: 8px 0;
@@ -101,9 +100,9 @@ html {
 
 .top-area-mid-left ul li:first-child a {
     float: left;
-    font: 100 20px arial, helvetica, serif;
+    font: 100 25px arial, helvetica, serif;
     border-radius: 30px;
-    padding: 10px 12px;
+    padding: 7px 12px 10px 12px;
     margin: 1px 5px 1px 0;
 }
 
@@ -543,7 +542,7 @@ html {
     font: bold 35px serif;
 }
 
-.box1 {
+.box1,.box2 {
     height: 150px;
     width: 500px;
     background-color: #fff;
@@ -564,7 +563,7 @@ html {
 }
 
 .text-1 {
-    margin-left: 30px;
+    margin-left: 20px;
     float: left;
     position: relative;
     top: 40px;
@@ -581,7 +580,24 @@ p {
 .content-six-area .text-1 p {
     font: 15px serif;
 }
-
+.arrow-right{
+    width: 30px;
+    height: 20px;
+    /* background-color: red;*/
+    float: right;
+    position: relative;
+    top: 70px;
+    text-align: center;
+    color: black;
+}
+.box1:hover .fa-arrow-right{
+    position: relative ;
+    right: -15px;
+}
+.box2:hover .fa-arrow-right{
+    position: relative ;
+    right: -15px;
+}
 /* Container Four  */  /* Footer Area */
  
 
@@ -655,21 +671,21 @@ p {
 
 .footer-two-area ul li {
     margin: 17px 0;
-    font: 15px serif;
 }
 
 .footer-two-area ul li a:link,
 .footer-two-area ul li a:visited {
     color: #fff;
     text-decoration: none;
+    font: 15px serif;
 }
 
 .footer-two-area ul li a:hover {
     color: #AFAFAF;
 }
 
-.footer-two-area-one {
-    width: 287.5px;
+.footer-two-area-all {
+    width: 287px;
     height: 300px;
     /* background-color: rgb(224, 210, 213); */
     float: left;
