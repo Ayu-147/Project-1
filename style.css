@@ -495,6 +495,10 @@ html {
     top: 180px;
 }
 
+.content-five-area-right .before{
+    position: relative;
+    top: 160px;
+}
 
 .content-five-area-right-mid h1 {
     font: bold 33px serif;
