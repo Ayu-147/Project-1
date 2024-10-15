@@ -82,8 +82,12 @@ html {
 
 .top-area-mid-left ul {
     list-style: none;
-    margin: 0;
+    margin:auto 0;
     padding: 0;
+}
+
+.top-area-mid-left ul li {
+    float: left;
 }
 
 .top-area-mid-left ul li a {
@@ -109,6 +113,96 @@ html {
 .top-area-mid-left ul li:first-child:hover a {
     background-color: black;
 }
+
+.top-area-mid-left ul li ul {
+    /* margin: 0; */
+    padding: 5px 0;
+    position: absolute;
+    top: 50px;
+    z-index: 50;
+    display: none;
+    background-color: #ffffff;
+    color: #000;
+    width: 250px;
+    border-radius: 2px;
+}
+
+.top-area-mid-left ul li:hover ul {
+    display: block;
+}
+
+.top-area-mid-left ul li:hover ul li {
+    float: none;
+}
+
+.top-area-mid-left ul li:hover ul li a:link, .top-area-mid-left ul li:hover ul li a:visited{
+    margin: 0;
+    padding: 10px 20px;
+    float: none;
+    display: block;
+    background-color: white;
+    border-radius: 0px;
+    color: #757575;
+    height: 15px;
+    font: 14px arial;
+}
+
+.top-area-mid-left ul li:hover ul li a:hover{
+    color: #000;  
+    background-color: #f3f3f3;
+}
+
+
+/* .top-area-mid-left ul li ul li ul{
+    display: none;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .top-area-mid-right {
     width: 380px;
@@ -174,7 +268,7 @@ html {
 
 .content-one-area-left-mid p {
     color: #fff;
-    font:  20px serif;
+    font: 20px serif;
 }
 
 .content-one-area-left-mid .arrow {
@@ -495,7 +589,7 @@ html {
     top: 180px;
 }
 
-.content-five-area-right .before{
+.content-five-area-right .before {
     position: relative;
     top: 160px;
 }
@@ -546,7 +640,8 @@ html {
     font: bold 35px serif;
 }
 
-.box1,.box2 {
+.box1,
+.box2 {
     height: 150px;
     width: 500px;
     background-color: #fff;
@@ -584,7 +679,8 @@ p {
 .content-six-area .text-1 p {
     font: 15px serif;
 }
-.arrow-right{
+
+.arrow-right {
     width: 30px;
     height: 20px;
     /* background-color: red;*/
@@ -594,16 +690,21 @@ p {
     text-align: center;
     color: black;
 }
-.box1:hover .fa-arrow-right{
-    position: relative ;
+
+.box1:hover .fa-arrow-right {
+    position: relative;
     right: -15px;
 }
-.box2:hover .fa-arrow-right{
-    position: relative ;
+
+.box2:hover .fa-arrow-right {
+    position: relative;
     right: -15px;
 }
-/* Container Four  */  /* Footer Area */
- 
+
+
+/* Container Four  */
+/* Footer Area */
+
 
 .container-four {
     width: 100%;
@@ -664,7 +765,7 @@ p {
 .footer-two-area h3 {
     color: #fff;
     font: bold 22px serif;
-    margin:0 0  30px 0;
+    margin: 0 0 30px 0;
 }
 
 .footer-two-area ul {
@@ -717,48 +818,53 @@ p {
 }
 
 /* Horizontal Line (GPA last) */
-.hr-line{
+.hr-line {
     height: 1px;
     width: 100%;
     margin-top: 50px;
     background-image: linear-gradient(to right, transparent, #AFAFAF, transparent);
 }
 
-.footer-three-area{
+.footer-three-area {
     height: 40px;
     width: 100%;
     margin-top: 60px;
     /* background-color: green; */
 }
 
-.footer-three-area-left{
+.footer-three-area-left {
     height: 20px;
     width: 650px;
     /* background-color: cyan; */
     float: left;
     margin: 10px 0 0 0;
 }
-.footer-three-area-left a:link, .footer-three-area-left a:visited{
+
+.footer-three-area-left a:link,
+.footer-three-area-left a:visited {
     font: 20px serif;
     padding: 15px 20px;
-    margin:0px 50px 0 0px;
+    margin: 0px 50px 0 0px;
     color: #fff;
 }
-.footer-three-area-left a:first-child{
+
+.footer-three-area-left a:first-child {
     margin-left: -14px;
 }
 
-.footer-three-area-left a:hover{
+.footer-three-area-left a:hover {
     border-radius: 15px;
     background-color: #333333;
 }
-.footer-three-area-right{
+
+.footer-three-area-right {
     height: 40px;
     width: 300px;
     float: right;
 }
 
-.footer-three-area-right a:link, .footer-three-area-right a:visited{
+.footer-three-area-right a:link,
+.footer-three-area-right a:visited {
     color: white;
     text-decoration: none;
     font: bold 15px serif;
@@ -768,47 +874,48 @@ p {
     float: right;
 }
 
-.footer-three-area-right a:hover{
+.footer-three-area-right a:hover {
     background-color: #333333;
 }
 
-.footer-four-area{
+.footer-four-area {
     height: 40px;
     width: 100%;
     margin-top: 60px;
 }
 
-.footer-four-area a{
+.footer-four-area a {
     height: 100%;
     margin: 0 15px 0 0;
     float: left;
 }
 
 
-.footer-four-area a img{
+.footer-four-area a img {
     width: 100%;
     height: 100%;
     float: left;
 }
 
-.footer-five-area{
+.footer-five-area {
     height: 40px;
     width: 100%;
     margin-top: 40px;
 }
 
-.footer-five-area-left{
+.footer-five-area-left {
     height: 28px;
     width: 400px;
     padding-top: 12px;
     float: left;
 }
-.footer-five-area-left p{
+
+.footer-five-area-left p {
     color: #AFAFAF;
     font: 15px serif;
 }
 
-.footer-five-area-right{
+.footer-five-area-right {
     height: 100%;
     width: 500px;
     /* background-color: cornsilk; */
@@ -816,7 +923,8 @@ p {
 }
 
 
-.footer-five-area-right a:link, .footer-five-area-right a:visited{
+.footer-five-area-right a:link,
+.footer-five-area-right a:visited {
     color: #AFAFAF;
     padding: 10px 15px;
     text-decoration: none;
@@ -825,26 +933,26 @@ p {
     float: right;
 }
 
-.footer-five-area-right a:hover{
+.footer-five-area-right a:hover {
     color: #fff;
     background-color: #333333;
 }
 
-.footer-six-area{
+.footer-six-area {
     height: 40px;
     width: 100%;
     margin-top: 30px;
     text-align: center;
 }
 
-.footer-six-area p,a{
+.footer-six-area p,
+a {
     font: bold 15px serif;
     text-decoration: none;
-    padding: 10px  0 0 0;
+    padding: 10px 0 0 0;
     color: white;
 }
 
-.footer-six-area a:hover{
+.footer-six-area a:hover {
     text-decoration: underline;
-    transition:0.3s;
 }
