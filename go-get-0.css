@@ -7,31 +7,6 @@ html {
     scroll-behavior: smooth;
 }
 
-.fixed {
-    width: 100%;
-    height: 80px;
-    background-color: #000000;
-    position: fixed;
-    bottom: 0px;
-}
-
-.fixed .fixed-button {
-    width: 1300px;
-    height: 14px;
-    background-color: #C4C4C4;
-    border-radius: 8px;
-    color: #000;
-    font: bold 15px serif;
-    display: block;
-    padding: 18px 0;
-    text-align: center;
-    margin: 15px 20px;
-}
-
-.fixed .fixed-button:hover {
-    background-color: #ABABAB;
-}
-
 .container-one {
     width: 100%;
     background-color: #ffffff;
@@ -77,6 +52,7 @@ html {
     margin: 5px 5px;
     padding: 10px 11.6px;
     border-radius: 30px;
+    transition: all 0.2s;
 }
 
 .top-area-mid-left ul li:hover a {
@@ -114,6 +90,7 @@ html {
     margin: 5px 5px;
     padding: 10px 11.6px;
     border-radius: 30px;
+    transition: all 0.2s;
 }
 
 .top-area-mid-right ul li:hover a {
@@ -678,6 +655,7 @@ html {
     /* background-color: #DEEEC6; */
     float: left;
     padding: 25px;
+    position: relative;
 }
 
 .container-ten-content-two-box2 {
@@ -688,6 +666,7 @@ html {
     float: right;
     padding: 25px;
     border: solid 1px #E0E0E0;
+    position: relative;
 }
 
 .container-ten-content-two-box1-image {
@@ -703,7 +682,6 @@ html {
 .container-ten-content-two-box1-text {
     height: 150px;
     width: 290px;
-    /* background-color: #5f1c54; */
     float: left;
     margin-left: 30px;
 }
@@ -711,7 +689,6 @@ html {
 .container-ten-content-two-box1-text-mid {
     height: 50px;
     width: 100%;
-    /* background-color: blue; */
     margin-top: 50px;
 }
 
@@ -728,18 +705,16 @@ html {
 .container-ten-content-two-box1-arrow {
     width: 30px;
     height: 20px;
-    /* background-color: red; */
-    position: relative;
-    top: 60px;
-    float: right;
+    position: absolute;
+    top: 85px;
+    right: 20px;
     text-align: center;
     padding: 5px 0;
+    transition: all 1s;
 }
 
 .container-ten-content-two-box1:hover .container-ten-content-two-box1-arrow {
-    position: relative;
-    top: 60px;
-    right: -20px;
+    right: 0px;
 }
 
 .container-ten-content-two-box1-arrow .fa-arrow-right {
@@ -760,7 +735,6 @@ html {
 .container-ten-content-two-box2-text {
     height: 150px;
     width: 290px;
-    /* background-color: #5f1c54; */
     float: left;
     margin-left: 30px;
 }
@@ -768,7 +742,6 @@ html {
 .container-ten-content-two-box2-text-mid {
     height: 50px;
     width: 100%;
-    /* background-color: blue; */
     margin-top: 50px;
 }
 
@@ -782,21 +755,19 @@ html {
     font: 15px helvetica;
 }
 
-.container-ten-content-two-box2-arrow {
+.container-ten-content-two-box2-arrow {  
     width: 30px;
     height: 20px;
-    /* background-color: red; */
-    position: relative;
-    top: 60px;
-    float: right;
+    position: absolute;
+    top: 85px;
+    right: 20px;
     text-align: center;
     padding: 5px 0;
+    transition: all 1s;
 }
 
 .container-ten-content-two-box2:hover .container-ten-content-two-box2-arrow {
-    position: relative;
-    top: 60px;
-    right: -20px;
+    right: 0px;
 }
 
 .container-ten-content-two-box2-arrow .fa-arrow-right {
@@ -826,7 +797,7 @@ html {
 
 
 .container-ten-content-three a:hover {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgb(119, 118, 118);
 }
 
 
@@ -975,6 +946,7 @@ html {
     padding: 15px 20px;
     margin: 0px 50px 0 0px;
     color: #fff;
+    transition: all 0.5s;
 }
 
 .footer-three-area-left a:first-child {
@@ -1001,6 +973,7 @@ html {
     border-radius: 10px;
     margin: 0px 5px;
     float: right;
+    transition: all 0.5s;
 }
 
 .footer-three-area-right a:hover {
@@ -1060,6 +1033,7 @@ html {
     margin: 1px 0 0 5px;
     border-radius: 10px;
     float: right;
+    transition: all 0.5s;
 }
 
 .footer-five-area-right a:hover {
