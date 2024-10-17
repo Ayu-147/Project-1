@@ -16,6 +16,7 @@ html {
     right: 30px;
     border-radius: 50%;
     padding: 5px 20px;
+    transition: all 0.3s;
 }
 
 .back-to-top #hide {
@@ -96,6 +97,7 @@ html {
     margin: 5px 5px;
     padding: 10px 11.6px;
     border-radius: 30px;
+    transition: all 0.2s;
 }
 
 .top-area-mid-left ul li:hover a {
@@ -223,6 +225,7 @@ html {
     margin: 5px 5px;
     padding: 10px 11.6px;
     border-radius: 30px;
+    transition: all 0.2s;
 }
 
 .top-area-mid-right ul li:hover a {
@@ -364,6 +367,7 @@ html {
     background-color: white;
     padding: 10px 15px;
     border-radius: 50px;
+    transition: all 800ms;
 }
 
 .content-two-area-all .text a:hover {
@@ -648,6 +652,7 @@ html {
     float: left;
     margin-right: 30px;
     padding: 20px;
+    position: relative; 
 }
 
 .box .image {
@@ -683,22 +688,20 @@ p {
 .arrow-right {
     width: 30px;
     height: 20px;
-    /* background-color: red;*/
-    float: right;
-    position: relative;
-    top: 70px;
+    position: absolute;
+    top: 90px;
+    right: 25px;
     text-align: center;
     color: black;
+    transition: all 0.6s;
 }
 
-.box1:hover .fa-arrow-right {
-    position: relative;
-    right: -15px;
+.box1:hover .arrow-right {
+    right: 10px;
 }
 
-.box2:hover .fa-arrow-right {
-    position: relative;
-    right: -15px;
+.box2:hover .arrow-right {
+    right: 10px;
 }
 
 
@@ -846,6 +849,7 @@ p {
     padding: 15px 20px;
     margin: 0px 50px 0 0px;
     color: #fff;
+    transition: all 0.5s;
 }
 
 .footer-three-area-left a:first-child {
@@ -872,6 +876,7 @@ p {
     border-radius: 10px;
     margin: 0px 5px;
     float: right;
+    transition: all 0.5s;
 }
 
 .footer-three-area-right a:hover {
@@ -931,6 +936,7 @@ p {
     margin: 1px 0 0 5px;
     border-radius: 10px;
     float: right;
+    transition: all 0.5s;
 }
 
 .footer-five-area-right a:hover {

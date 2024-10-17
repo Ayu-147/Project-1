@@ -8,8 +8,6 @@ html {
 }
 
 .container-one {
-    /* width: 100%; */
-    /* height: 900px; */
     background-color: black;
 }
 
@@ -108,10 +106,8 @@ html {
 
 .container-two {
     height: 400px;
-    /*480px*/
     width: 1263px;
     margin: 0 auto;
-    /* background-color: aqua; */
     background-image: url('Images/help/Help-bg-img.jpeg');
     background-size: cover;
     background-position: center;
@@ -128,11 +124,9 @@ html {
     width: 650px;
     margin: 0 auto;
     text-align: center;
-    /* margin-top: 100px; */
 }
 
 .container-two-one h1 {
-    /* margin: 0; */
     padding: 0;
     font: bold 50px serif;
 }
@@ -151,7 +145,6 @@ html {
 .boxes {
     width: 100%;
     height: 160px;
-    /* background-color: red; */
     margin-top: 30px;
 }
 
@@ -169,7 +162,6 @@ html {
 .box:hover {
     background-color: #f8f7f7;
     line-height: 20px;
-    /* text-decoration: underline; */
 }
 
 .box p {
@@ -197,7 +189,6 @@ html {
 .footer-area {
     width: 1150px;
     height: 785px;
-    /* background-color: red; */
     margin: 0 auto;
     padding: 65px 0;
 }
@@ -205,7 +196,6 @@ html {
 .footer-one-area {
     height: 100px;
     width: 100%;
-    /* background-color: rgb(17, 97, 167); */
 }
 
 .footer-one-area #foot-one-up-area {
@@ -274,28 +264,24 @@ html {
 .footer-two-area-all {
     width: 287px;
     height: 300px;
-    /* background-color: rgb(224, 210, 213); */
     float: left;
 }
 
 .footer-two-area-two {
     width: 287.5px;
     height: 300px;
-    /* background-color: rgb(143, 220, 20); */
     float: left;
 }
 
 .footer-two-area-three {
     width: 287.5px;
     height: 300px;
-    /* background-color: rgb(220, 20, 170); */
     float: left;
 }
 
 .footer-two-area-four {
     width: 287.5px;
     height: 300px;
-    /* background-color: rgb(207, 220, 20); */
     float: left;
 }
 
@@ -311,13 +297,11 @@ html {
     height: 40px;
     width: 100%;
     margin-top: 60px;
-    /* background-color: green; */
 }
 
 .footer-three-area-left {
     height: 20px;
     width: 650px;
-    /* background-color: cyan; */
     float: left;
     margin: 10px 0 0 0;
 }
@@ -328,6 +312,7 @@ html {
     padding: 15px 20px;
     margin: 0px 50px 0 0px;
     color: #fff;
+    transition: all 0.5s;
 }
 
 .footer-three-area-left a:first-child {
@@ -354,6 +339,7 @@ html {
     border-radius: 10px;
     margin: 0px 5px;
     float: right;
+    transition: all 0.5s;
 }
 
 .footer-three-area-right a:hover {
@@ -400,7 +386,6 @@ html {
 .footer-five-area-right {
     height: 100%;
     width: 500px;
-    /* background-color: cornsilk; */
     float: right;
 }
 
@@ -413,6 +398,7 @@ html {
     margin: 1px 0 0 5px;
     border-radius: 10px;
     float: right;
+    transition: all 0.5s;
 }
 
 .footer-five-area-right a:hover {
