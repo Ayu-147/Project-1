@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.top-area {
+    width: 100%;
+    height: 60px;
+    margin: auto;
+    border-bottom: solid 1px #282828;
+    background-color: black;
+}
+
+.top-area a:link,
+.top-area a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.top-area-mid {
+    width: 1230px;
+    height: 60px;
+    margin: auto;
+}
+
+.top-area-mid-left {
+    width: 390px;
+    height: 40px;
+    float: left;
+    margin: 8px 0;
+}
+
+.top-area-mid-left ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.top-area-mid-left ul li a {
+    float: left;
+    font: 100 25px arial, helvetica, serif;
+    border-radius: 30px;
+    padding: 7px 12px 10px 12px;
+    margin: 1px 5px 1px 0;
+}
+
+/* Form Area */
+
+.form{
+    width: 330px;
+    height: 500px;
+    margin: auto;
+    padding: 40px 50px;
+}
+
+.form h3{
+    font: 200 24px helvetica;
+    margin: 0;
+}
+
+.form #name{
+    width: 300px;
+    height: 48px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 7px;
+    background-color: #EEEEEE;
+    padding: 0 15px;
+    font: 17px helvetica;
+}
+
+#continue{
+    width: 330px;
+    height: 48px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font: bold 17px helvetica;
+    margin-top: 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 7px;
+}
+
+#continue:hover{
+    background-color: #282828;
+}
+
+.line-or{
+    width: 330px;
+    height: 20px;
+    margin: 15px 0  ;
+    color: #AFAFAF;
+}
+.line-or span{
+    float: left;
+    margin: 0 7px;
+}
+.line{
+    width: 151px;
+    height: 1px;
+    background-color: #AFAFAF;
+    float: left;
+    margin-top: 10px;
+}
+
+.continue-with{ 
+    width: 330px;
+    height: 48px;
+    background-color: #EEEEEE;
+    color: black;
+    font: 600 17px helvetica;
+    margin-bottom: 7px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.apple-last{
+    margin-bottom: 0px;
+}
+
+.continue-with:hover{
+    background-color: #DDDDDD;
+}
+
+.fa-brands{
+    font-size: 20px ;
+}
+
+.form p{
+    text-align: justify;
+    margin-top: 20px;
+    font: 13px helvetica,'arial';
+    line-height: 21px;
+}
